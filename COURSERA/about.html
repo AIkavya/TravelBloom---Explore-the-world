@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about TravelBloom - your gateway to discovering amazing destinations">
+    <title>About Us - TravelBloom</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <h2 class="logo">
+            <span class="logo-icon">✈</span>
+            TravelBloom
+        </h2>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search destinations..." onkeypress="handleKeyPress(event)">
+            <button onclick="search()" class="search-btn">
+                <span>🔍</span>
+            </button>
+        </div>
+        <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">☰</button>
+    </div>
+</nav>
+
+<section class="content">
+    <h1>About TravelBloom</h1>
+    
+    <div class="about-content">
+        <div class="about-section">
+            <h2>🌍 Our Mission</h2>
+            <p>
+                TravelBloom is a travel discovery platform designed to inspire people to explore the world. 
+                We believe that travel is one of life's greatest teachers, opening our minds to new cultures, 
+                perspectives, and unforgettable experiences. Our mission is to make travel planning easier 
+                and more exciting by connecting you with beautiful destinations, cultural landmarks, and 
+                memorable experiences across the globe.
+            </p>
+        </div>
+
+        <div class="about-section">
+            <h2>✨ What We Offer</h2>
+            <p>
+                Whether you're dreaming of pristine beaches, ancient temples, mountain adventures, or 
+                cultural immersion, TravelBloom helps you discover destinations that match your interests. 
+                Our platform provides curated recommendations, stunning imagery, and detailed information 
+                to help you plan your next adventure.
+            </p>
+        </div>
+
+        <div class="about-section">
+            <h2>🎯 Our Values</h2>
+            <ul class="values-list">
+                <li><strong>Inspiration:</strong> We inspire wanderlust and encourage exploration</li>
+                <li><strong>Discovery:</strong> We help you discover hidden gems and popular destinations</li>
+                <li><strong>Adventure:</strong> We celebrate the spirit of adventure and new experiences</li>
+                <li><strong>Community:</strong> We connect travelers and share stories from around the world</li>
+            </ul>
+        </div>
+
+        <div class="about-section">
+            <h2>🚀 Start Your Journey</h2>
+            <p>
+                Ready to explore? Use our search feature to find destinations that spark your interest, 
+                or browse our featured recommendations. Every journey begins with a single step, and we're 
+                here to help you take that first step toward your next great adventure.
+            </p>
+            <div class="cta-buttons">
+                <a href="index.html" class="primary-btn">Explore Destinations</a>
+                <a href="contact.html" class="secondary-btn">Get in Touch</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3><span class="logo-icon">✈</span> TravelBloom</h3>
+                <p>Your gateway to discovering the world's most beautiful destinations.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#" class="social-link">📘</a>
+                    <a href="#" class="social-link">📷</a>
+                    <a href="#" class="social-link">🐦</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 TravelBloom. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

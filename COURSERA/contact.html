@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with TravelBloom - we'd love to hear from you">
+    <title>Contact Us - TravelBloom</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <h2 class="logo">
+            <span class="logo-icon">✈</span>
+            TravelBloom
+        </h2>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html" class="active">Contact Us</a></li>
+        </ul>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search destinations..." onkeypress="handleKeyPress(event)">
+            <button onclick="search()" class="search-btn">
+                <span>🔍</span>
+            </button>
+        </div>
+        <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">☰</button>
+    </div>
+</nav>
+
+<section class="content">
+    <h1>Get in Touch</h1>
+    <p style="text-align: center; margin-bottom: 40px; color: #666;">
+        Have a question, suggestion, or just want to say hello? We'd love to hear from you!
+    </p>
+    
+    <div class="contact-wrapper">
+        <div class="contact-info">
+            <div class="info-card">
+                <div class="info-icon">📧</div>
+                <h3>Email Us</h3>
+                <p>hello@travelbloom.com</p>
+            </div>
+            <div class="info-card">
+                <div class="info-icon">📞</div>
+                <h3>Call Us</h3>
+                <p>+1 (555) 123-4567</p>
+            </div>
+            <div class="info-card">
+                <div class="info-icon">📍</div>
+                <h3>Visit Us</h3>
+                <p>123 Travel Street<br>Adventure City, AC 12345</p>
+            </div>
+        </div>
+        
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3><span class="logo-icon">✈</span> TravelBloom</h3>
+                <p>Your gateway to discovering the world's most beautiful destinations.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#" class="social-link">📘</a>
+                    <a href="#" class="social-link">📷</a>
+                    <a href="#" class="social-link">🐦</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 TravelBloom. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
